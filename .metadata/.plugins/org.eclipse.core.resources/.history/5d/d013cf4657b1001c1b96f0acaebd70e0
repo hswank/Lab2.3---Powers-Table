@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class PowersTable {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		String underline = "=======";
+		
+		System.out.printf("%-15s%-15s%-15s%n", "Number", "Squared", "Cubed");
+		System.out.printf("%-15s%-15s%-15s%n", underline, underline, underline);
+		
+	}
+}
